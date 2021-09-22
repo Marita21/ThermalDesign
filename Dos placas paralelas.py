@@ -68,8 +68,8 @@ fig = Figure(figsize=(5, 5), dpi=100)
 
 
 
-fig.add_subplot(111).plot((solver.t),solver.T[0]-273, linestyle='--', color='blue', label="PLACA 1")
-fig.add_subplot(111).plot((solver.t),solver.T[1]-273, linestyle='-', color='green', label="PLACA 2")
+fig.add_subplot(111).plot((solver.t)/3600,solver.T[0]-273, linestyle='--', color='blue', label="PLACA 1")
+fig.add_subplot(111).plot((solver.t)/3600,solver.T[1]-273, linestyle='-', color='green', label="PLACA 2")
 
 #fig.add_subplot(111).plot((solver.t)/3600,solver.T[7]-273, linestyle='--', color='blue', label="ESPACIO")
 
@@ -79,7 +79,7 @@ fig.add_subplot(111).plot((solver.t),solver.T[1]-273, linestyle='-', color='gree
 # #GRAFICA IMAGENES
 # 
 fig.suptitle("PLACAS PARALELAS (Al) d=3mm", fontsize=14)
-fig.add_subplot(111).set_xlabel('Tiempo [s]')
+fig.add_subplot(111).set_xlabel('Tiempo [h]')
 fig.add_subplot(111).set_ylabel('Temperatura [C]')
 fig.add_subplot(111).grid(linestyle='--', linewidth=0.9, alpha=0.5)
 fig.add_subplot(111).legend(loc=6, bbox_to_anchor=(1.0,0.9))
