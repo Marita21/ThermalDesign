@@ -1,8 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-import tkinter
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 
 from solver import Node, ThermalModel, FDMExplicit
 from matplotlib.figure import Figure
