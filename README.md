@@ -22,5 +22,7 @@ This project models the thermal behavior of a satellite subsystem using the Fini
 
 python MOD_16_NODO_T_N.py
 
+![Captura](img/Captura.JPG)
 
-<img src="img/Captura.JPG" alt="Captura" width="400">
+
+
