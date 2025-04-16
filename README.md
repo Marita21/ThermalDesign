@@ -1,4 +1,4 @@
-# Thermal Simulation of a Satellite Subsystem
+# Thermal Simulation of a Satellite Subsystem!
 
 This project models the thermal behavior of a satellite subsystem using the Finite Difference Method (FDM). It calculates node temperatures over time for various spacecraft components, including radiators, structures, and multilayer insulation (MLI).
 
