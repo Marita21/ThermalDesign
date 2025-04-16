@@ -18,5 +18,9 @@ This project models the thermal behavior of a satellite subsystem using the Fini
 1. Make sure Python 2 is installed.
 2. Run the main script:
 
-```bash 
+
+
 python MOD_16_NODO_T_N.py
+
+
+
