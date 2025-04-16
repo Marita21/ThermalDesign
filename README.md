@@ -40,9 +40,6 @@ You may also run any of the example files (e.g., MOD_32_VariacionPotencia_C15_3o
 
 This code has been benchmarked using thermal test data and design experience from SAC-A, the first Argentine scientific satellite launched in 1998. Additional simulations with variations in power (15 W to 90 W) and geometry provide robustness and reliability to the method.
 
-👩‍💻 Author
-
-Mariela BaigorriaThermal Engineer | Satellite Systems | Python Developergithub.com/Marita21
 
 📜 License
 
