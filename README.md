@@ -15,7 +15,7 @@ This project models the thermal behavior of a satellite subsystem using the Fini
 
 ## How to Run
 
-1. Make sure Python 2 is installed.
+1. Make sure Python 2 is installed..
 2. Run the main script:
 
 
